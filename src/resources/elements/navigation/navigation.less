@@ -1,0 +1,33 @@
+nav.navigation {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 75px;
+  width: 100vw;
+  background-color: white;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    font-family: 'Spinnaker', sans-serif;
+    img {
+      height: 65px;
+    }
+    a {
+      text-decoration: none;
+      color: initial;
+      flex-grow: 1;
+      text-align: center;
+      height: 100%;
+      line-height: 75px;
+      transition: background-color 125ms ease;
+      &:hover {
+        cursor: pointer;
+        background-color: #d4d4d4;
+      }
+    }
+  }
+}
